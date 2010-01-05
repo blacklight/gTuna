@@ -2,6 +2,11 @@ gtuna is a chromatic guitar tuner for your Linux box using ncurses (it was born
 as a guitar tuner, but it should be good as a tuner for any instrument connected
 on your computer's mic).
 
+Q: Where can I get it?
+A: As usual, there are two ways. You can get the latest stable release from
+http://0x00.ath.cx/prog/gtuna.tar.bz2 . Or (as I suggest) the up-to-date release
+from GitHub: `git clone git://github.com/BlackLight/gTuna.git`
+
 Q: How can I install it?
 A:Just type `make` and press enter. Nothing more.
 *N.B.* The requirement for getting gtuna working is having libfftw3-dev and
