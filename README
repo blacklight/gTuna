@@ -1,0 +1,28 @@
+gtuna is a chromatic guitar tuner for your Linux box using ncurses (it was born
+as a guitar tuner, but it should be good as a tuner for any instrument connected
+on your computer's mic).
+
+Q: How can I install it?
+A:Just type `make` and press enter. Nothing more.
+*N.B.* The requirement for getting gtuna working is having libfftw3-dev and
+libncurses-dev installed on your machine.
+
+Q: How does it work?
+A: Just plug your instrument into the mic entrance of your computer, and pick a
+string. In green you can see the recognized note, in branches () the computed
+frequency of the sound, in square branches [] the minimum frequency for the
+recognized note, the effective ideal frequency and the maximum frequency, and a
+final string:
+
+-- means the computed frequency is very low for the computed note (so you need
+to pull that string up)
+- means the computed frequency is slightly low for the computed note
+O means the computed frequency is ok for the computed note
++ means the computed frequency is slightly high for the computed note
+++ means the computed frequency is very high for the computed note (so you need
+to pull that string down)
+
+by BlackLight, <blacklight@autistici.org>
+(C) 2010
+Released under GNU GPL licence v.3
+
