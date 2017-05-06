@@ -2,6 +2,7 @@
 #include <cmath>
 #include <fcntl.h>
 #include <ncurses.h>
+#include <unistd.h>
 #include "gtuna.hpp"
 
 using std::cout;
